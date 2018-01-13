@@ -1,0 +1,56 @@
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration {
+ -webkit-appearance:none
+}
+button::-moz-focus-inner,input::-moz-focus-inner {
+ border:0;
+ padding:0
+}
+textarea {
+ overflow:auto;
+ vertical-align:top;
+ resize:none
+}
+input:-webkit-autofill,textarea:-webkit-autofill,select:-webkit-autofill {
+ box-shadow:inset 0 0 0 1000px #fff;
+ -moz-box-shadow:inset 0 0 0 1000px #fff;
+ -webkit-box-shadow:inset 0 0 0 1000px #fff
+}
+select {
+ border-radius:0;
+ -webkit-border-radius:0
+}
+body {
+ line-height:1.6;
+ font-family:"Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","\9ED1\4F53",Arial,sans-serif;
+ color:#353535;
+ font-size:14px
+}
+textarea,input {
+ color:#353535
+}
+textarea::-webkit-input-placeholder,input::-webkit-input-placeholder {
+ color:#a3a3a3
+}
+textarea:-moz-placeholder,input:-moz-placeholder {
+ color:#a3a3a3
+}
+textarea::-moz-placeholder,input::-moz-placeholder {
+ color:#a3a3a3
+}
+textarea:-ms-input-placeholder,input:-ms-input-placeholder {
+ color:#a3a3a3
+}
+textarea.placeholder,input.placeholder {
+ color:#a3a3a3
+}
+textarea {
+ resize:none;
+ overflow-y:auto
+}
+a {
+ color:#576b95;
+ text-decoration:none
+}
+a:hover {
+ text-decoration:underline
+}
